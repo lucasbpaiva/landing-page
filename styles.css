@@ -18,7 +18,7 @@ body {
 
 .logo {
     color: #F9FAF8;
-    size: 24px;
+    font-size: 24px;
     margin: 0 16px;
 }
 
@@ -37,9 +37,50 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
 }
 
 .image{
-    width: 300px;
-    height: 150px;
+    display: flex;
+    width: 600px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.hero-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border-style: none;
+    align-self: flex-start;
 }
