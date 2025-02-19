@@ -155,3 +155,9 @@ img {
 .cta-button {
     border: 2px solid #E5E7EB;
 }
+
+.footer {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
+}
