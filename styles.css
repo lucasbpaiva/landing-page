@@ -13,17 +13,17 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 20%;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    margin: 0 16px;
+    margin: 0px;
 }
 
 .links {
-    margin: 0 16px;
+    margin: 0px;
 }
 
 ul {
@@ -42,9 +42,9 @@ a {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 40px 20%;
     gap: 40px;
 }
 
