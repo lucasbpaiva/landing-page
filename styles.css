@@ -135,6 +135,6 @@ img {
     color: #1F2937;
 }
 
-.quote-author {
-    
+.cta {
+    display: flex;
 }
