@@ -48,13 +48,11 @@ a {
     gap: 40px;
 }
 
-.image{
-    display: flex;
-    width: 600px;
-    height: 300px;
+.hero-image{
     justify-content: center;
     align-items: center;
     background-color: lightgrey;
+    width: 500px;
 }
 
 .hero-left {
@@ -101,7 +99,7 @@ button {
     margin: 32px;
 }
 
-img {
+.photo {
     width: 200px;
     height: 200px;
     border-radius: 8px;
